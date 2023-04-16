@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <script src="./app.js"></script>
+    <!-- <script src="./data.json"></script> -->
+</head>
+<body>
+    <header>
+        <h1>Movie app</h1>
+        <div class="search form container">
+            <input type="text"
+            id="searchInput"
+            placeholder="search for movies...">
+            <button id="searchbtn">Search</button>
+        </div>
+        <div>
+            <h5>GENRE</h5>
+            <select name="GENRE" id="GENRE">
+                <option value="">ALL</option>
+                <option value="">Horror</option>
+                <option value="">Drama</option>
+                <option value="">Romance</option>
+            </select>
+        </div>
+        <div>
+            <h5>YEAR</h5>
+            <select name="YEAR" id="YEAR">
+                <option value="">ALL</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+            </select>
+        </div>
+        <div>
+            <h5>LANGUAGE</h5>
+            <select name="LANGUAGE" id="LANGUAGE">
+                <option value="">ALL</option>
+                <option value="">English</option>
+                <option value="">Urdu</option>
+            </select>
+        </div>
+        <div>
+            <h5>RATING</h5>
+            <select name="RATING" id="RATING">
+                <option value="">ALL</option>
+                <option value="">High</option>
+                <option value="">low</option>
+            </select>
+        </div>
+    
+    <main>
+        <section id="movieResult">
+            <h2 class="search-results-heading">Search Results</h2>
+            <div class="list-container">
+                <ul id="movieslist"></ul>
+            </div>
+        </section>
+    </main>
+    <sec id="movies"></sec>
+</body>
+</html>
+
+
+<!-- <select name="car" id="car">
+    <option value="no.car">Select your car</option>
+    <option value="omni">omni</option>
+    <option value="civic">civic</option>
+    <option value="toyota">toyota</option>
+</select> -->
